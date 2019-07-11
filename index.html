@@ -58,9 +58,9 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Brian Gardiner</h1>
+          <h1 class="text-uppercase text-white font-weight-bold text-shadow">Brian Gardiner</h1>
           <hr class="divider my-4">
-          <h3 class="text-uppercase text-white font-weight-bold">Web Developer</h3>
+          <h3 class="text-uppercase text-white font-weight-bold text-shadow">Web Developer</h3>
         </div>
         <div class="col-lg-8 align-self-baseline">
           <hr class="my-4">
@@ -76,12 +76,13 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <div>
-              <h2 class="text-white mt-0">Hello! I'm Brian Gardiner.</h2>
+          <div class="my-4 flex-bubble">
+              <h2 class="speech-bubble text-dark mt-0">Hello!<br/> I'm Brian Gardiner.</h2>
           </div>
+          <img id="my-photo" src="img/cropped_me.jpg"/>
           <hr class="divider blue my-4">
           <p class="text-white-75 mb-4">I'm a 20-something web developer from California. I'm adept at many different technologies and I enthusiastically seek out new ones. Besides the programming skills I have to offer, I'm also a team player, a hard worker, and an all around fun guy.</p>
-          <a class="btn btn-blue btn-xl js-scroll-trigger" href="#services">My Skills</a>
+          <a class="btn btn-info btn-xl js-scroll-trigger" href="#services">My Skills</a>
         </div>
       </div>
     </div>
@@ -145,8 +146,18 @@
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio">
+  <!-- additional skills to add: sass, redux, express -->
+
+  <!-- Project Section -->
+  <section class="page-section bg-info">
+    <div class="container">
+      <h2 class="text-center text-white mt-0">Projects</h2>
+      <hr class="divider secondary my-4">
+    </div>
+  </section>
+
+  <!-- (Old) Portfolio Section -->
+  <!-- <section id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
@@ -229,7 +240,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Call to Action Section -->
   <!-- <section class="page-section bg-dark text-white">
@@ -245,19 +256,27 @@
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Need a Hand?</h2>
-          <hr class="divider my-4">
+          <hr class="divider blue my-4">
           <p class="text-muted mb-5">I'm ready when you are! Contact me with one of the methods provided below and I'll respond as soon as possible. See you soon!</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+        <!-- <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (661) 301-3537</div>
-        </div>
+          <div>Number</div>
+        </div> -->
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
           <a class="d-block" href="mailto:bgardiner9001@gmail.com">bgardiner9001@gmail.com</a>
+        </div>
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fab fa-linkedin fa-3x mb-3 text-muted"></i>
+          <a class="d-block" href="https://linkedin.com">LinkedIn</a>
+        </div>
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fab fa-github fa-3x mb-3 text-muted"></i>
+          <a class="d-block" href="https://github.com/IncorrigibleFool">Github</a>
         </div>
       </div>
     </div>

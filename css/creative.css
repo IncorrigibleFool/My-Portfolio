@@ -47,6 +47,14 @@ hr.blue{
   border-color: #007bff !important;
 }
 
+hr.secondary{
+  border-color: #6c757d !important;
+}
+
+hr.info{
+  border-color: #17a2b8 !important;
+}
+
 .logos{
   height: 5em;
   width: 5em;
@@ -58,6 +66,56 @@ hr.blue{
 
 #css-logo{
   width: 4.2em;
+}
+
+.text-shadow{
+  text-shadow: 3px 3px black;
+}
+
+.bg-blue{
+  background-color: #007bff !important;
+}
+
+.fit{
+  width: fit-content;
+}
+
+.flex-bubble{
+display: flex;
+justify-content: center;
+}
+
+.speech-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	position: relative;
+	background: #fff;
+  border-radius: .4em;
+  height: 4em;
+  width: 10em;
+  padding: 0;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+#my-photo{
+  height: 16em;
+  width: 16em;
+  border-radius: 50% 50%;
 }
 
 /* Custom edits */
@@ -2854,12 +2912,6 @@ fieldset:disabled a.btn {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
-}
-
-.btn-blue {
-  color: #f8f9fa;
-  background-color: #007bff;
-  border-color: #007bff;
 }
 
 .btn-light:hover {
